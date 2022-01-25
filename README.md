@@ -150,3 +150,32 @@ Using network 'development'.
 
 
   7 passing (5s)
+
+
+decadanse@decadanse:~/smart-contracts/nft-royalties$ truffle exec scripts/perform_sale.js 
+Using network 'development'.
+
+NFT Collection Fetched
+
+Initial balance of deployer | 99.91799986
+Initial balance of artist   | 100
+Initial balance of owner1   | 100
+Initial balance of owner2   | 100
+
+Minting NFT for owner1...
+
+NFT has been minted!
+
+Balance of deployer | 100.66799986
+Balance of artist   | 100.25
+Balance of owner1   | 98.9969116
+Balance of owner2   | 100
+
+Performing transfer sale to owner2...
+
+Transfer complete!
+
+Balance of deployer | 100.66799986
+Balance of artist   | 102.75
+Balance of owner1   | 106.4959647
+Balance of owner2   | 89.99845402
