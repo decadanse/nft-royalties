@@ -34,14 +34,16 @@ $ npm install
 `$ truffle exec ./scripts/perform_sale.js`
 
 
-## How it works
 
-# In the first terminal
+
+# How it works
+
+## In the first terminal
 
 decadanse@decadanse:~/smart-contracts/nft_royalties$ ganache-cli
 Ganache CLI v6.12.2 (ganache-core: 2.13.2)
 
-### Available Accounts
+#### Available Accounts
 ==================
 (0) 0x3A0E53F18d134bA6106094b24D38224C022a2bE4 (100 ETH)
 (1) 0x055FA23A64af9C62b6525A568bed377137e67c73 (100 ETH)
@@ -54,27 +56,27 @@ Ganache CLI v6.12.2 (ganache-core: 2.13.2)
 (8) 0x5E66c4B0837f3712f4e16d748B628D2E455AAdE6 (100 ETH)
 (9) 0xFF1EC69A918fDcEdA554350FBf8CD9671d965c2a (100 ETH)
 
-# In the second terminal
+## In the second terminal
 
 decadanse@decadanse:~/smart-contracts/nft_royalties$ truffle migrate --reset
 
-### Compiling your contracts...
+#### Compiling your contracts...
 ===========================
 > Everything is up to date, there is nothing to compile.
 
 
 
-### Starting migrations...
+#### Starting migrations...
 ======================
 > Network name:    'development'
 > Network id:      1643110148528
 > Block gas limit: 6721975 (0x6691b7)
 
 
-### 1_initial_migration.js
+#### 1_initial_migration.js
 ======================
 
-   ### Deploying 'Migrations'
+   #### Deploying 'Migrations'
    ----------------------
    > transaction hash:    0x518af7c4b53ab05d450ca8006126bdc7ae4183032aeb9c3fa16a4d7d2c5585b1
    > Blocks: 0            Seconds: 0
@@ -95,10 +97,10 @@ decadanse@decadanse:~/smart-contracts/nft_royalties$ truffle migrate --reset
    > Total cost:          0.00497708 ETH
 
 
-### 2_deploy_contracts.js
+#### 2_deploy_contracts.js
 =====================
 
-   ### Deploying 'NFT'
+   #### Deploying 'NFT'
    ---------------
    > transaction hash:    0x5b1652715f0eddb35acdb204c5f352ae34300ade4b243c3bed5aaee77dba2cea
    > Blocks: 0            Seconds: 0
@@ -119,7 +121,7 @@ decadanse@decadanse:~/smart-contracts/nft_royalties$ truffle migrate --reset
    > Total cost:          0.07562254 ETH
 
 
-### Summary
+#### Summary
 =======
 > Total deployments:   2
 > Final cost:          0.08059962 ETH
@@ -129,7 +131,7 @@ decadanse@decadanse:~/smart-contracts/nft_royalties$ truffle test
 Using network 'development'.
 
 
-### Compiling your contracts...
+#### Compiling your contracts...
 ===========================
 > Everything is up to date, there is nothing to compile.
 
